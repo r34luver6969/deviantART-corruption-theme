@@ -1,4 +1,7 @@
-
+@name deviantART-corruption-theme
+@namespace deviantart.com
+@version 1.0.0
+@-moz-document domain("deviantart.com") {
 .theme-dark,.theme-light .forced-theme-dark {
     --g-brand: #ff7ab4;
     --g-brand-hover: #ff7ab4;
