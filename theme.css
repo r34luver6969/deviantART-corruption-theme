@@ -9,13 +9,9 @@
     --g-theme-primary: #510818;
     --g-theme-secondary: #2d010b;
     --g-theme-tertiary: #2d010b;
-    --g-theme-tertiary-rgb: #ff7ab4;
     --g-theme-primary-opposite: #ff2071;
-    --g-theme-primary-opposite-rgb: #ff7ab4;
-    --g-theme-secondary-opposite: #ff7ab4;
-    --g-theme-secondary-opposite-rgb: #ff7ab4;
+    --g-theme-secondary-opposite: #ff2071;
     --g-theme-tertiary-opposite: #ff7ab4;
-    --g-theme-tertiary-opposite-rgb: #ff7ab4;
     --g-typography-primary: var(--g-theme-primary-opposite);
     --g-typography-secondary: var(--g-theme-secondary-opposite);
     --g-typography-tertiary: var(--g-theme-tertiary-opposite);
@@ -69,7 +65,17 @@
     background:linear-gradient(180deg, #ff2071 0%, #980a29 33%, #510818 100%);
     border: 2px solid var(--g-secondary-surface-border);
     box-sizing: border-box;
-    border: none;
-    border-radius: 0
 }
-/* thank you for using my theme! */
+.theme-dark .M0hKW4,.theme-light .forced-theme-dark .M0hKW4 {
+    --typography-default: var(--g-theme-secondary-opposite);
+    --bg: var(--g-theme-secondary);
+    --stroke-default: var(--g-theme-secondary-opposite);
+    --typography-filled: var(--g-theme-tertiary-opposite)
+}
+.M0hKW4 .HvT2NY input {
+    font-family: "Bauhaus 93"
+}
+.H9mVPC, .IqI2Uh {
+    border-radius: 0px
+}
+/* thank you for using my theme!*/
